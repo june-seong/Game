@@ -12,7 +12,8 @@ for (int i=0;i<10;i++){
      if(keeptime >0){
        fill(250,0,0);
        textSize(100);
-       text("Failed..", 320,250);
+       text("Failed...", 510,280);
+       textAlign(CENTER);
        keeptime--;
        }
 }

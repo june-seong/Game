@@ -1,12 +1,13 @@
 void escape() {
   if (sx1 > 15 && sx1 < 165 && sy1 > 25 && sy1 < 125) {
     for (int i=0; i<10; i++) {
-      xx[i] = 999;
-      yy[i] = 1;
+      xx[i] = 1500;
+      yy[i] = 900; //disappear lions
     }
     fill(0, 0, 250);
     textSize(100);
-    text("Success!", 320, 250);
+    text("Succcess\nGood Bye!", 500, 200);
+    textAlign(CENTER);
     state = 1;
   }
 }
